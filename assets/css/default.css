@@ -1,0 +1,75 @@
+body {
+	font-size: 14px;
+	color: #777;
+	background-color: #fff;
+	transition: 0.3s ease-in-out;
+}
+
+a {
+	color: #b773c7;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #c194cc;
+}
+
+
+
+@font-face {
+	font-family: 'Poiret One';
+	src: url("../fonts/Poiret_One/PoiretOne-Regular.ttf");
+}
+
+.header {
+	padding: 10px 0;
+	margin-bottom: 20px;
+	text-align: center;
+	border-bottom: 1px solid #eee;
+}
+
+.header h1 > a {
+	font-family: 'Poiret One', cursive;
+	color: #777;
+	font-weight: bold;
+	text-decoration: none !important;
+}
+
+.header h1 > a > span {
+	color: #b773c7;
+}
+
+.nav-pills>li>a {
+  border-radius: 4px;
+  padding: 5px 0;
+}
+
+.nav-pills>li>a:focus,
+.nav-pills>li>a:hover {
+  background-color: transparent;
+  color: #c194cc;
+}
+
+.docs-main .page-header {
+	margin: 13px 0 20px;
+}
+
+.btn-default {
+	background-color: #b773c7;
+	border-color: #c194cc;
+	color: #fff;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+	background-color: #c194cc;
+	border-color: #b773c7;
+	color: #fff;
+}
+
+.footer {
+	padding: 30px 0;
+	margin-top: 30px;
+	border-top: 1px solid #eee;
+	font-size: 13px;
+}
