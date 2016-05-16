@@ -1,14 +1,14 @@
 <?php
 
-define('WEBISTE_NAME', 'MVC');
+define('WEBISTE_NAME', 'Humble');
 
-define('URL_BASE', 'http://localhost/mvc/');
+define('URL_BASE', 'http://localhost/humble/');
 
 define('DATABASE_TYPE', 'mysql');
 define('DATABASE_HOST', 'localhost');
 define('DATABASE_USER', 'root');
-define('DATABASE_PASS', '');
-define('DATABASE_NAME', 'humble');
+define('DATABASE_PASS', 'databasepasssword');
+define('DATABASE_NAME', 'databasename');
 
 define('DATABASE_PREFIX', 'hb_');
 
